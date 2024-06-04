@@ -21,9 +21,6 @@ const ProductDetail = () => {
   return (
     <div>
       <h1 className="text-2xl font-bold">{product.name}</h1>
-      <img src={product.imageUrl} alt={product.name} className="w-full h-64 object-cover" />
-      <p>Company: {product.company}</p>
-      <p>Category: {product.category}</p>
       <p>Price: {product.price}</p>
       <p>Rating: {product.rating}</p>
       <p>Discount: {product.discount}</p>
